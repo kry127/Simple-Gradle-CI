@@ -13,8 +13,8 @@ jobs:
       run: echo Hello, world!
     - name: Run a multi-line script
       run: |
-        echo Calling `gradle wrapper`
+        echo Calling "gradle wrapper"
         gradle wrapper
-        echo runing tests as `gradle test`
+        echo runing tests as "gradle test"
         gradle test
-        echo deploy (none)
+        echo 'deploy (none)'
