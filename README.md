@@ -1,8 +1,8 @@
-# yacli
-Yet Another CLI Java implementation
+# Simple Gradle CI
 
 ![CI](https://github.com/kry127/yacli/workflows/CI/badge.svg)
 
+Stupidly simple :)
 This is a template project that uses GitHub CI to run JUnit 4 tests on GitHub instance.
 
 
