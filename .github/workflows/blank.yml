@@ -13,10 +13,11 @@ jobs:
       run: echo Hello, world!
     - name: Run a multi-line script
       run: |
-        echo Calling "gradle wrapper"
-        gradle wrapper
-        echo
+        # uncomment if gradle/wrapper/gradle-wrapper.jar is not persistent
+        # echo Calling "gradle wrapper"
+        # gradle wrapper
+        # echo
         echo runing tests as "gradle test"
-        gradle test --info
+        gradle test -i
         echo
         echo 'deploy (none)'
