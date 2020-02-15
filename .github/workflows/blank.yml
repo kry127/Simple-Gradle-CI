@@ -13,8 +13,8 @@ jobs:
       run: echo Hello, world!
     - name: Run a multi-line script
       run: |
-        echo Add other actions to build,
-        echo test, and deploy your project.
-        chmod +x gradlew
+        echo Calling `gradle wrapper`
         gradle wrapper
-        ./gradlew test
+        echo runing tests as `gradle test`
+        gradle test
+        echo deploy (none)
