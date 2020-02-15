@@ -17,6 +17,6 @@ jobs:
         gradle wrapper
         echo
         echo runing tests as "gradle test"
-        gradle test
+        gradle test --info
         echo
         echo 'deploy (none)'
